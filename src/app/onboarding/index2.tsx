@@ -14,10 +14,6 @@ import { useEffect, useRef, useState } from 'react';
 export default function Onboarding2() {
   const router = useRouter();
 
-  // ==========================================
-  // ANIMAÇÕES
-  // ==========================================
-
   const propositoTituloAnim = useRef(
     new Animated.Value(0)
   ).current;
